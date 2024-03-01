@@ -1,0 +1,133 @@
+html {
+	font-family: 'Comfortaa', sans-serif;
+}
+body {
+	background: url('./films/bg.jpeg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+* {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.button-container {
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 150px;
+}
+
+.button-container button {
+	margin: 0;
+	font-size: 22px;
+	font-family: inherit;
+	width: 400px;
+	padding: 10px 0;
+	background-color: #ecf019c5;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.2s linear;
+	border: 1px solid #9fa11a;
+}
+.button-container button:hover {
+	background-color: #000000c5;
+	color: #ecf019c5;
+}
+.button-container button a {
+	text-decoration: none;
+	color: inherit;
+}
+.dialog-container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 500px;
+}
+.dialog-window {
+	display: flex;
+	width: 1000px;
+	height: 400px;
+	border-radius: 15px;
+	margin-top: 50px;
+	overflow: hidden;
+	backdrop-filter: blur(10px);
+	border: 2px solid rgba(0, 0, 0, 0.2);
+}
+.dialog-image-container {
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+}
+.dialog-image-container img {
+	width: 100%;
+	height: 100%;
+}
+.dialog-info-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.dialog-info {
+	color: aliceblue;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.dialog-info h2 {
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+.dialog-info p {
+	width: 70%;
+	text-align: justify;
+}
+
+.dialog-buttons-container {
+	margin: 0 auto;
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 25px;
+}
+.dialog-buttons-container button {
+	width: 150px;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: inherit;
+	border-radius: 15px;
+	text-transform: uppercase;
+	transition: all 0.1s linear;
+	cursor: pointer;
+	border: 0;
+}
+.dialog-buttons-container button:hover {
+	color: #fff;
+	transform: scale(1.1);
+}
+.dialog-button1:hover {
+	background-color: green;
+}
+.dialog-button1 a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-top: 14px;
+	padding: 15px 25px;
+}
+.dialog-button2 {
+	padding: 15px 20px;
+}
+.dialog-button2:hover {
+	background-color: rgb(128, 0, 0);
+}
